@@ -1,0 +1,10 @@
+Smurf=15160
+Neptune=80796
+Normal=103567
+satan=6678
+warezclient=566
+rootkit=6
+teardrop=99
+pod=22
+back=101
+spy=2

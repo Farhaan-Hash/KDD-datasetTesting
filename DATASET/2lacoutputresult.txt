@@ -1,0 +1,9 @@
+162916=Normal
+36944=Smurf
+loadmodule=1
+guess_passwd=1
+teardrop=99
+buffer_overflow=2
+perl=1
+neptune=15
+pod=20

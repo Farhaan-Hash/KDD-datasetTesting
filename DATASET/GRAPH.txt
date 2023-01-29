@@ -1,0 +1,7 @@
+
+
+1e8 is standard scientific notion, and here it indicates an overall scale factor for the y-axis. 
+That is, if there's a 2 on the y-axis and a 1e8 at the top, the value at 2 actually indicates 2*1e8 = 2e8 = 2 * 10^8 = 200,000,000.
+
+Note that exp(20) = 4.85e8 and exp(3) = 20.1, and since the first number is too large to conveniently express directly and 
+the second one can be expressed directly, you have the scientific notation in the first and not (explicitely) in the second.
