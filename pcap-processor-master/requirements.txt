@@ -1,0 +1,4 @@
+pyshark
+kafka-python
+grpcio
+grpcio-tools

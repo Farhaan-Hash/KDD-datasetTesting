@@ -1,0 +1,4 @@
+tshark.exe -i 2 -w filetest.pcap -c 100
+-T fields -e dns.qry.name 
+tshark.exe -r filetest.pcap -T fields -e frame.number -e frame.time -e eth.src -e eth.dst -e ip.src -e ip.dst -e ip.proto -E header=y -E separator=, -E quote=d -E occurrence=f -e frame.time  -e http.request.method -e http.request.uri -e http.host -T fields -e dns.qry.name -e tcp.duration
+tshark.exe -r filetest.pcap -T fields -e frame.number -e frame.time -e eth.src -e eth.dst -e ip.src -e ip.dst -e ip.proto -E header=y -E separator=, -E quote=d -E occurrence=f -e frame.time  -e http.request.method -e http.request.uri -e http.host>filetest.csv
